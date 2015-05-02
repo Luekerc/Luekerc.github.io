@@ -518,13 +518,7 @@ aside#sidebar p.repo-owner a {
 #downloads {
   margin-bottom: 40px;
 }
-#fb{
-  /*line-height: 1em;*/
-  /*display: inline-block;*/
-  /*vertical-align: middle;*/
-  /*margin-left: 1em;*/
-  /*padding-bottom: 1em;*/
-}
+
 a.button {
   width: 134px;
   height: 58px;
@@ -534,6 +528,7 @@ a.button {
   font-size: 23px;
   line-height: 1.2;
   color: #fff;
+  display: inline-block;
 }
 a.button small {
   display: block;
@@ -616,7 +611,35 @@ form {
   background: #f2f2f2;
 
 }
+.header-links{
+ 
+}
 
+.icon-ocat{
+  display: inline-block;
+  margin-top: 0.6em;
+  float: left;
+}
+.icon-ocat img{
+  height: 2.75em;
+}
+.icon-fb{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.6em;
+  float: left;
+}
+.icon-fb img{
+  height: 3em;
+}
+}
+.icon-in{
+  height: 3em;
+}
+.icon-in img{
+  padding-top: 0.5em;
+  height: 3em;
+}
 .cool-pic{
   margin: 0 auto;
   content: url("../images/charlie.jpg") 0 0 no-repeat;
