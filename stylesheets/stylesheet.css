@@ -650,7 +650,7 @@ form {
 }
 #cool-pic{
   margin: 0 auto 1em auto;
-  content: url("../images/charlie.jpg") 0 0 no-repeat;
+  content: url("../images/charlie_monocle.jpg") 0 0 no-repeat;
   height: 4em;
   /*width: 0em;*/
   border-radius: 50%;
