@@ -453,6 +453,8 @@ header {
   font-family:Arial, serif;
   background: #2e7bcf;
   border-bottom: solid 1px #275da1;
+  display: inline-block;
+  overflow: none;
 }
 
 header h1 {
@@ -515,7 +517,13 @@ aside#sidebar p.repo-owner a {
 #downloads {
   margin-bottom: 40px;
 }
-
+#fb{
+  /*line-height: 1em;*/
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  /*margin-left: 1em;*/
+  /*padding-bottom: 1em;*/
+}
 a.button {
   width: 134px;
   height: 58px;
@@ -608,7 +616,13 @@ form {
 
 }
 
-
+.chicken-head{
+  margin: 0 auto;
+  content: url("../images/charlie.jpg") 0 0 no-repeat;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
