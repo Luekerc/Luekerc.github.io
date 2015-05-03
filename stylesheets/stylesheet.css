@@ -689,6 +689,9 @@ aside #cool-pic{
   border: #474747 solid 2px;
   border-radius: 50%;
 }
+aside h2{
+  text-align: center;
+}
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
