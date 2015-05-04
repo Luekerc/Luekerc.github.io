@@ -460,9 +460,10 @@ header {
 }
 
 header h1 {
+  font-family: sans-serif;
   width: 540px;
   margin-top: 0;
-  margin-bottom: 0.2em;
+  margin-bottom: 0;
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
@@ -665,6 +666,12 @@ a #project{
   float: left;
   display: inline-block;
 }
+.angular img{
+  height: 2em;
+  margin-right: 0.5em;
+  float: left;
+  display: inline-block;
+}
 div.project-title{
   font-size: 1.1em;
   line-height: 1.5em;
@@ -672,6 +679,21 @@ div.project-title{
   padding: 0em 0em 0.25em 0em;
   display: inline-block;
   margin: 0.25em 0em 0em 0.5em;
+}
+div.angular-title{
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-weight: bold;
+  padding: 0em 0em 0.25em 0em;
+  display: inline-block;
+  margin: 0.25em 0em 0em 0em;
+}
+.sails img{
+  height: 2em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  float: left;
+  display: inline-block;
 }
 /*a .project-title{
   font-size: 1.75em;
@@ -852,6 +874,10 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.center{
+  text-align: center;
+}
 
 /* #Media Queries
 ================================================== */
