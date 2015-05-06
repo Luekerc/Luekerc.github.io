@@ -452,7 +452,8 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family:Arial, serif;
-  background: #2e7bcf;
+  background: black;
+  opacity: 0.8;
   border-bottom: solid 1px #275da1;
   display: inline-block;
   overflow: none;
@@ -636,11 +637,11 @@ form {
 }
 }
 .icon-in{
-  height: 3em;
+  height: 4em;
 }
 .icon-in img{
   padding-top: 0.55em;
-  height: 3em;
+  height: 3.15em;
 }
 .cool-pic{
   margin: 0 auto;
@@ -650,13 +651,13 @@ form {
   border-radius: 50%;
 }
 a #project{
-  border: 2px #474747 solid;
+  border: 3px #474747 solid;
   border-radius: 10px;
   padding: 1em 1em 0em 1em;
   margin: 0 0 1em 0;
   background-color: black;
   color: white;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 #projects{
@@ -1006,7 +1007,7 @@ footer a:hover {
 }
 @media only screen and (min-width: 1020px){
 header{
-     border-bottom: 1em blue solid;
+     border-bottom: 1em green solid;
   }
   .cool-pic{
     height: 0em;
