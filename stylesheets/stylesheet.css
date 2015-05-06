@@ -482,6 +482,10 @@ header h2 {
   color: #9ddcff;
   letter-spacing: 0;
 }
+#fixed-pic{
+  height: 0;
+  content: url("../images/charlie.jpg") 0 0 no-repeat;
+}
 
 .inner {
   position: relative;
@@ -709,7 +713,7 @@ div.angular-title{
 aside #cool-pic{
   margin: 0 auto 1em auto;
   content: url("../images/charlie_monocle.jpg") 0 0 no-repeat;
-  height: 4em;
+  height: 0em;
   border: #474747 solid 2px;
   border-radius: 50%;
 }
@@ -916,9 +920,7 @@ footer a:hover {
   header h2 {
     font-size: 30px;
   }
-  #cool-pic{
-    height: 0em;
-  }
+
   #main-content {
     width: 490px;
   }
@@ -991,9 +993,7 @@ footer a:hover {
   aside#sidebar a.button {
     display: none;
   }
-  #cool-pic{
-    height: 0em;
-  }
+
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -1007,13 +1007,23 @@ footer a:hover {
 }
 @media only screen and (min-width: 1020px){
 header{
-     border-bottom: 1em green solid;
+     /*border-bottom: 1em green solid;*/
   }
+  #fixed-pic{
+    height: 6em;
+    width:6em;
+    border-radius: 50%;
+    position: absolute;
+    border: black 2px solid;
+    top: 195px;
+    left: 42%;  /* Put the left edge on the horizontal center */
+    /* Move it 148px to the right of the horizontal center, placing it over the lightswitch */
+ }
+
   .cool-pic{
     height: 0em;
-    /*visibility: hidden;*/
   }
-  #cool-pic{
+  aside #cool-pic{
     height: 6em;
   }
   .javascript img{
