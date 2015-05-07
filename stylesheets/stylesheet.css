@@ -884,6 +884,9 @@ footer a:hover {
 .center{
   text-align: center;
 }
+#full-projects{
+  display: none;
+}
 
 /* #Media Queries
 ================================================== */
@@ -933,6 +936,14 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
     content: none;
+  }
+
+  #mobile-projects{
+  display: none;
+  }
+  
+  #full-projects{
+  display: block;
   }
 }
 
@@ -1009,6 +1020,7 @@ footer a:hover {
 header{
      /*border-bottom: 1em green solid;*/
   }
+
   #fixed-pic{
     height: 6em;
     width:6em;
@@ -1019,6 +1031,13 @@ header{
     left: 42%;  /* Put the left edge on the horizontal center */
     /* Move it 148px to the right of the horizontal center, placing it over the lightswitch */
  }
+
+  #mobile-projects{
+  display: none;
+  }
+  #full-projects{
+  display: block;
+  }
 
   .cool-pic{
     height: 0em;
