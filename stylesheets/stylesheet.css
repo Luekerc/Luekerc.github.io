@@ -619,7 +619,8 @@ form {
 
 }
 .header-links{
- 
+ display: block;
+
 }
 
 .icon-ocat{
@@ -641,11 +642,21 @@ form {
 }
 }
 .icon-in{
+  display: inline-block;
   height: 4em;
 }
 .icon-in img{
+  display: inline-block;
   padding-top: 0.55em;
-  height: 3.15em;
+  height: 3.2em;
+}
+.icon-wp{
+  display: inline-block;
+}
+.icon-wp img{
+  display: inline-block;
+  padding-top: 0.5em;
+  height: 3.2em;
 }
 .cool-pic{
   margin: 0 auto;
