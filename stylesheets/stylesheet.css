@@ -628,24 +628,25 @@ form {
   float: left;
 }
 .icon-ocat img{
-  height: 2.75em;
+  height: 1.75em;
 }
 .icon-fb{
   margin-top: 0.6em;
   float: left;
 }
 .icon-fb img{
-  height: 3em;
+  height: 2em;
 }
 }
 .icon-in{
-  height: 4em;
+  height: 3em;
   width: 2em;
 }
 .icon-in img{
   padding-top: 0.55em;
-  height: 3.2em;
-  width: 3.2em;
+  margin-left: 2px;
+  height: 2.2em;
+  width: 2.2em;
 }
 
 .cool-pic{
