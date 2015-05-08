@@ -652,8 +652,8 @@ form {
 .cool-pic{
   margin: 0 auto;
   content: url("../images/charlie.jpg") 0 0 no-repeat;
-  height: 8em;
-  width: 8em;
+  height: 6em;
+  width: 6em;
   border-radius: 50%;
 }
 .website{
