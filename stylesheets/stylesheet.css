@@ -462,15 +462,15 @@ header {
 
 header h1 {
   /*text-align: center;*/
-  font-family: sans-serif;
+  font-family: Helvetica;
   width: 540px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 72px;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 1;
   color: #fff;
-  letter-spacing: -1px;
+  letter-spacing: 1.1px;
 }
 
 header h2 {
