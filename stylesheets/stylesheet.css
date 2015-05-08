@@ -647,14 +647,7 @@ form {
   height: 3.2em;
   width: 3.2em;
 }
-.icon-wp{
-  float: left;
-  height: 3.5em;
-}
-.icon-wp img{
-  padding-top: 0.5em;
-  height: 3.2em;
-}
+
 .cool-pic{
   margin: 0 auto;
   content: url("../images/charlie.jpg") 0 0 no-repeat;
@@ -671,11 +664,11 @@ form {
   /*margin-top: 1em;*/
 }
 a #project{
-  border-radius: 2px;
-  padding: 1em 1em 0.05em 1em;
+  border-radius: 3px;
+  padding: 1em 1em 0.15em 1em;
   margin: 0 0 1em 0;
   background-color: black;
-  color: white;
+  color: #666;
   opacity: 0.8;
 }
 
@@ -685,36 +678,46 @@ a #project{
 .javascript img{
   height: 2em;
   float: left;
-  display: inline-block;
+  /*display: inline-block;*/
+  display: none;
 }
 .angular img{
   height: 2em;
   margin-right: 0.5em;
   float: left;
-  display: inline-block;
+  /*display: inline-block;*/
+  display: none;
 }
 div.project-title{
-  font-size: 1.1em;
+  font-family: Helvetica;
+  font-size: 1em;
   line-height: 1.5em;
-  font-weight: bold;
-  padding: 0em 0em 0.25em 0em;
-  display: inline-block;
-  margin: 0.25em 0em 0em 0.5em;
-}
-div.angular-title{
-  font-size: 1.1em;
-  line-height: 1.5em;
-  font-weight: bold;
+  font-weight: 400;
+  color: white;
   padding: 0em 0em 0.25em 0em;
   display: inline-block;
   margin: 0.25em 0em 0em 0em;
 }
+div.angular-title{
+  font-family: Helvetica;
+  font-size: 1em;
+  color: white;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding: 0em 0em 0.25em 0em;
+  display: inline-block;
+  margin: 0.25em 0em 0em 0em;
+}
+.project-description{
+    font-size: 0.8em;
+  }
 .sails img{
   height: 2em;
   border-radius: 2px;
   margin-right: 0.5em;
   float: left;
-  display: inline-block;
+ /* display: inline-block;*/
+  display: none;
 }
 /*a .project-title{
   font-size: 1.75em;
@@ -1056,9 +1059,9 @@ header h2{
   #full-projects{
   display: block;
   }
-.website{
-  display: none;
-}
+  .website{
+    display: none;
+  }
   .cool-pic{
     height: 0em;
   }
@@ -1068,7 +1071,7 @@ header h2{
   .javascript img{
     height: 2em;
     float: left;
-    display: inline-block;
+    display: none;
   }
   div.project-title{
     font-size: 1.1em;
@@ -1076,7 +1079,7 @@ header h2{
     font-weight: bold;
     padding: 0em 0em 0.25em 0em;
     display: inline-block;
-    margin: 0.25em 0em 0em 0.5em;
+    margin: 0.25em 0em 0em 0em;
   }
 }
 
