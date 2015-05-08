@@ -643,10 +643,10 @@ form {
   width: 2em;
 }
 .icon-in img{
-  padding-top: 0.55em;
+  padding-top: 0.58em;
   margin-left: 2px;
-  height: 2.2em;
-  width: 2.2em;
+  height: 2.1em;
+  width: 2.1em;
 }
 
 .cool-pic{
@@ -755,7 +755,7 @@ aside h2{
 #main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
-  color: #9ddcff;
+  color: #667;
   content: "/";
 }
 
@@ -764,14 +764,14 @@ aside h2{
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
-  color: #474747;
+  color:#667;
   text-indent: 4px;
 }
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
   content: "//";
-  color: #9ddcff;
+  color: #667;
 }
 
 #main-content h3 {
@@ -788,7 +788,8 @@ aside h2{
   padding-right: 0.3em;
   margin-left: -2em;
   content: "///";
-  color: #9ddcff;
+  color: #667;
+  /*#9ddcff*/
 }
 
 #main-content h4 {
@@ -804,7 +805,7 @@ h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
   content: "////";
-  color: #9ddcff;
+  color: #667;
 }
 
 #main-content h5 {
@@ -818,7 +819,7 @@ h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
   content: "/////";
-  color: #9ddcff;
+  color: #667;
 }
 
 #main-content h6 {
@@ -832,7 +833,7 @@ h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
   content: "//////";
-  color: #9ddcff;
+  color: #667;
 }
 
 p {
@@ -919,6 +920,13 @@ footer a:hover {
   .inner {
     width: 740px;
   }
+  #projects{
+    height: 22em;
+    width: 100%;
+    overflow: hidden;
+    overflow-y:scroll;
+  }
+
   .javascript img{
     height: 2em;
     float: left;
@@ -927,7 +935,6 @@ footer a:hover {
   div.project-title{
     font-size: 1.1em;
     line-height: 1.5em;
-    /*font-weight: bold;*/
     padding: 0em 0em 0.25em 0em;
     display: inline-block;
     margin: 0.25em 0em 0em 0.5em;
@@ -974,10 +981,7 @@ footer a:hover {
   header {
     padding: 20px 0;
   }
-  header .inner {
-    /*position: relative;*/
 
-  }
   header h1, header h2 {
     width: 100%;
   }
@@ -1038,8 +1042,12 @@ footer a:hover {
   }
 }
 @media only screen and (min-width: 1020px){
+header h1{
+  font-size: 3em;
+}
+
 header h2{
-     margin-left: 0.35em;
+     margin-left: 0.15em;
   }
 
   #fixed-pic{
@@ -1049,7 +1057,7 @@ header h2{
     border-radius: 50%;
     position: absolute;
     border: black 2px solid;
-    top: 195px;
+    top: 160px;
     left: 42%;  /* Put the left edge on the horizontal center */
     /* Move it 148px to the right of the horizontal center, placing it over the lightswitch */
  }
@@ -1057,8 +1065,18 @@ header h2{
   #mobile-projects{
   display: none;
   }
+
   #full-projects{
   display: block;
+  }
+   #projects{
+    height: 30em;
+    width: 100%;
+    padding: 2px 2px 2px 2px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    overflow: hidden;
+    overflow-y:scroll;
   }
   .website{
     display: none;
