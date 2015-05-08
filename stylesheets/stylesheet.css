@@ -983,7 +983,7 @@ footer a:hover {
   }
   header h2 {
     font-size: 24px;
-    margin-left: 0.35em;
+    margin-left: 0.4em;
   }
   header a.button {
     position: relative;
@@ -1034,8 +1034,8 @@ footer a:hover {
   }
 }
 @media only screen and (min-width: 1020px){
-header{
-     /*border-bottom: 1em green solid;*/
+header h2{
+     margin-left: 0.35em;
   }
 
   #fixed-pic{
