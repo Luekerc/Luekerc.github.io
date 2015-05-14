@@ -912,11 +912,11 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
+/*@media only screen and (max-width: 959px) { }*/
 
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
   .inner {
     width: 740px;
   }
@@ -930,7 +930,7 @@ footer a:hover {
   .javascript img{
     height: 2em;
     float: left;
-    display: inline-block;
+    display: none;
   }
   div.project-title{
     font-size: 1.1em;
@@ -975,6 +975,27 @@ footer a:hover {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+  #projects{
+    height: 22em;
+    width: 100%;
+    overflow: hidden;
+    overflow-y:scroll;
+  }
+  #full-projects{
+  display: block;
+  }
+  .javascript img{
+    height: 2em;
+    float: left;
+    display: none;
+  }
+  div.project-title{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 0em 0em 0.25em 0em;
+    display: inline-block;
+    margin: 0.25em 0em 0em 0.5em;
+  }
   .inner {
     width: 93%;
   }
@@ -1103,8 +1124,8 @@ header h2{
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+/*@media only screen and (min-width: 480px) and (max-width: 767px) { }*/
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+/*@media only screen and (max-width: 479px) { }*/
 
