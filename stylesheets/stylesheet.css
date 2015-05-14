@@ -904,7 +904,7 @@ footer a:hover {
 .center{
   text-align: center;
 }
-#full-projects{
+aside #full-projects{
   display: none;
 }
 
@@ -968,21 +968,21 @@ footer a:hover {
   display: none;
   }
   
-  #full-projects{
+  aside #full-projects{
   display: block;
   }
 }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  #projects{
-    height: 22em;
-    width: 100%;
-    overflow: hidden;
-    overflow-y:scroll;
-  }
-  #full-projects{
-  display: block;
+  /*#projects{*/
+    /*height: 22em;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+ /*   overflow-y:scroll;*/
+  /*}*/
+  aside #full-projects{
+  /*display: block;*/
   }
   .javascript img{
     height: 2em;
@@ -1087,7 +1087,7 @@ header h2{
   display: none;
   }
 
-  #full-projects{
+ aside #full-projects{
   display: block;
   }
    #projects{
