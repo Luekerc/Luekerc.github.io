@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: Raleway; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -442,10 +442,16 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: #F68174;
 }
 a:hover {
   color: #2268b2;
+}
+#top{
+  width: 100%;
+  /*background-color: rgb(253,245,230);*/
+  padding-left: 2em;
+  margin-right: 2em;
 }
 
 header {
@@ -589,7 +595,6 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
-
 /* COMMON STYLES */
 
 hr {
@@ -618,11 +623,7 @@ td {
 form {
   padding: 20px;
   background: #f2f2f2;
-
 }
-/*.header-links{
-
-}*/
 .icon-ocat{
   margin-top: 0.6em;
   float: left;
@@ -669,7 +670,7 @@ a #project{
   padding: 1em 1em 0.15em 1em;
   margin: 0 0 1em 0;
   background-color: black;
-  color: #667;
+  color: #FDF5E6;
   opacity: 0.8;
 }
 
@@ -695,7 +696,7 @@ div.project-title{
   line-height: 1.5em;
   font-weight: 400;
   color: white;
-  padding: 0em 0em 0.25em 0em;
+  padding: 0em 0em 0em 0em;
   display: inline-block;
   margin: 0.25em 0em 0em 0em;
 }
@@ -744,7 +745,7 @@ aside h2{
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Raleway, Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
@@ -756,7 +757,6 @@ aside h2{
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: #667;
-  content: "/";
 }
 
 #main-content h2 {
@@ -769,27 +769,24 @@ aside h2{
 }
 #main-content h2:before {
   padding-right: 0.3em;
-  margin-left: -1.5em;
-  content: "//";
+  /*margin-left: -1.5em;*/
   color: #667;
 }
 
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Raleway;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
-  text-indent: 3px;
+  /*text-indent: 3px;*/
 }
 
 #main-content h3:before {
   padding-right: 0.3em;
-  margin-left: -2em;
-  content: "///";
+  /*margin-left: -2em;*/
   color: #667;
-  /*#9ddcff*/
 }
 
 #main-content h4 {
@@ -804,7 +801,6 @@ aside h2{
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "////";
   color: #667;
 }
 
@@ -818,7 +814,6 @@ h4:before {
 h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
-  content: "/////";
   color: #667;
 }
 
@@ -832,7 +827,6 @@ h5:before {
 h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
-  content: "//////";
   color: #667;
 }
 
@@ -917,6 +911,10 @@ aside #full-projects{
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 1020px) {
+#top{
+  float: left;
+  margin-left: 3em;
+}
   .inner {
     width: 740px;
   }
@@ -981,6 +979,7 @@ aside #full-projects{
     /*overflow: hidden;*/
  /*   overflow-y:scroll;*/
   /*}*/
+
   aside #full-projects{
   /*display: block;*/
   }
@@ -1063,6 +1062,11 @@ aside #full-projects{
   }
 }
 @media only screen and (min-width: 1020px){
+#top{
+  float: left;
+  margin-left: 3em;
+}
+
 header h1{
   font-size: 3em;
 }
@@ -1078,7 +1082,7 @@ header h2{
     border-radius: 50%;
     position: absolute;
     border: black 2px solid;
-    top: 160px;
+    top: 180px;
     left: 42%;  /* Put the left edge on the horizontal center */
     /* Move it 148px to the right of the horizontal center, placing it over the lightswitch */
  }
