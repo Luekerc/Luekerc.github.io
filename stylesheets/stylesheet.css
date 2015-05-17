@@ -428,7 +428,7 @@ th {
 
 /* LAYOUT STYLES */
 body {
-  font-family: Arial, serif;
+  font-family: Raleway, Arial, serif;
   letter-spacing: 0.5px;
   font-size: 1em;
   font-weight: 400;
@@ -451,7 +451,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family:Arial, serif;
+  font-family: Raleway;
   background: black;
   opacity: 0.8;
   border-bottom: solid 1px #275da1;
@@ -462,7 +462,7 @@ header {
 
 header h1 {
   /*text-align: center;*/
-  font-family: Helvetica;
+  font-family: Raleway;
   width: 540px;
   margin-top: 0;
   margin-bottom: 0;
