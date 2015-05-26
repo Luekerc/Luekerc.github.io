@@ -1080,7 +1080,7 @@ header h2{
     width:6em;
     border-radius: 50%;
     position: absolute;
-    border: white 4px solid;
+    border: white 6px solid;
     top: 180px;
     left: 42%;  /* Put the left edge on the horizontal center */
     /* Move it 148px to the right of the horizontal center, placing it over the lightswitch */
