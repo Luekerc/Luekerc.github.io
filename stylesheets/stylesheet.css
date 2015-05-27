@@ -628,11 +628,12 @@ form {
   float: left;
 }
 .icon-ocat img{
-  height: 1.75em;
+  height: 2em;
 }
 .icon-fb{
   margin-top: 0.6em;
   float: left;
+  margin-left: 2px;
 }
 .icon-fb img{
   height: 2em;
@@ -640,13 +641,12 @@ form {
 }
 .icon-in{
   height: 3em;
-  width: 2em;
+
 }
 .icon-in img{
   padding-top: 0.58em;
   margin-left: 2px;
-  height: 2.1em;
-  width: 2.1em;
+  height: 2em;
 }
 
 .cool-pic{
