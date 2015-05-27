@@ -630,6 +630,7 @@ form {
 }
 .icon-ocat img{
   height: 1.75em;
+  border-radius: 50%;
 }
 .icon-fb{
   margin-top: 0.6em;
