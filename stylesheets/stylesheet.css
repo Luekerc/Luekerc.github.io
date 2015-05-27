@@ -641,6 +641,7 @@ form {
 .icon-in{
   height: 3em;
   width: 2em;
+  background-color: white;
 }
 .icon-in img{
   padding-top: 0.58em;
