@@ -1077,7 +1077,7 @@ header h2{
      margin-left: 0.15em;
   }
 
-  #fixed-pic{
+  #fixed-pic img{
     z-index: 10;
     height: 6em;
     width:6em;
