@@ -489,10 +489,10 @@ header h2 {
   /*color: /*#9ddcff*/;*/
   letter-spacing: 0;
 }
-/*#fixed-pic{
+#fixed-pic{
   height: 0;
   content: url("../images/newProfile.jpg") 0 0 no-repeat;
-}*/
+}
 
 .inner {
   position: relative;
