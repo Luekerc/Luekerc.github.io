@@ -490,7 +490,7 @@ header h2 {
   letter-spacing: 0;
 }
 #fixed-pic{
-  /*height: 0;*/
+  height: 0;
   content: url("../images/newProfile.jpg") 0 0 no-repeat;
 }
 
